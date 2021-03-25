@@ -137,33 +137,20 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Clever Programmer",
-      companylogo: require("./assets/images/cpLogo.png"),
-      date: "September 2020 – Present",
-      desc: "Changing lives of developers one line of code at a time.",
-      descBullets: [
-        "Custom building applications",
-        "Coaching",
-        "Streaming live on YouTube",
-        "Creating tutorials",
-      ],
+      role: "Student",
+      company: "Programming Hero",
+      companylogo: require("./assets/images/pHero.png"),
+      date: "January 2021 – Present",
+      desc:
+        "Learning Code from Programming Hero...Mission of Become a Junior Developer",
     },
     {
-      role: "Product Owner (PSD2)",
-      company: "Erste Bank",
-      companylogo: require("./assets/images/ersteLogo.jpg"),
-      date: "July 2019 – September 2020",
+      role: "Wordpress Developer",
+      company: "Bazar Niketon",
+      companylogo: require("./assets/images/bnLogo.png"),
+      date: "July 2020 – Present",
       desc:
-        "I lead software developers building the API for the bank in order to fulfil the PSD2 regulation requirements.",
-    },
-    {
-      role: "Junior Information Security & Systems Representative",
-      company: "Vodafone",
-      companylogo: require("./assets/images/vodafoneLogo.png"),
-      date: "November 2018 – July 2019",
-      desc:
-        "I've conducted internal audit making sure the organization is compliant with the GDPR.",
+        "I developed the whole website of Bazar Niketon using Wordpress. My Job is To Develop and Manage the Website",
     },
   ],
 };
@@ -291,7 +278,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies.",
     },
   ],
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -334,7 +321,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "davidrakosi_", //Replace "twitter" with your twitter username without @
-  display: true, // Set true to display this section, defaults to false
+  display: false, // Set true to display this section, defaults to false
 };
 
 export {
