@@ -38,14 +38,15 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "Technologies",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle:
+    "I'M A FULL STACK JUNIOR DEVELOPER WHO WANTS TO EXPLORE EVERY TECHNOLOGIES AND STACKS. I ALSO A TECH SAVVY",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop interactive Front end / User Interfaces for your web applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Progressive Web Applications ( PWA ) in normal"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integration of third party services such as Firebase/ AWS / MongoDB"
     ),
   ],
 
@@ -62,10 +63,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt",
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass",
-    },
-    {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js",
     },
@@ -78,15 +75,11 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node",
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift",
-    },
-    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm",
     },
     {
-      skillName: "sql-database",
+      skillName: "MongoDB",
       fontAwesomeClassname: "fas fa-database",
     },
     {
@@ -100,24 +93,19 @@ https://fontawesome.com/icons?d=gallery */
 // Education Section
 
 const educationInfo = {
-  display: false, // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"],
+      schoolName: "Ispahani Public School & College",
+      logo: require("./assets/images/ispahaniLogo.png"),
+      subHeader: "Completed Primary Education",
+      duration: "January 2017 - December 2019",
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc:
-        "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"],
+      schoolName: "Govt Muslim High School",
+      logo: require("./assets/images/gmhsLogo.png"),
+      subHeader: "Currently Studying",
+      duration: "January 2020 - Running",
     },
   ],
 };
