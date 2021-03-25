@@ -26,7 +26,7 @@ const socialMediaLinks = {
   // linkedin: "https://www.linkedin.com/in/",
   gmail: "devloperd250@gmail.com",
   // gitlab: "https://gitlab.com/",
-  facebook: "https://www.facebook.com/",
+  facebook: "https://www.facebook.com/developerdaiyan/",
   // medium: "https://medium.com/@davidrakosi",
   stackoverflow: "https://stackoverflow.com/users/14914177/coderdaiyan",
   // instagram: "https://www.instagram.com/davidrakosi/",
@@ -313,8 +313,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "(323) 768 0674",
-  email_address: "contact@davidrakosi.com",
+  number: "(880) 171150 3992",
+  email_address: "devloperd250@gmail.com",
 };
 
 // Twitter Section
